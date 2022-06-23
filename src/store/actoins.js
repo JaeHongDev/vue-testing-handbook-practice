@@ -6,7 +6,7 @@ import axios from "axios";
 * was the correct API endpoint used?
 * is the payload correct?
 * was the correct mutation committed with the result
-* */
+* * */
 
 export default{
     async authenticate({commit},{username,password}){
